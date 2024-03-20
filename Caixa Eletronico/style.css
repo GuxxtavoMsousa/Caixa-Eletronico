@@ -1,0 +1,138 @@
+.numeradores{
+    width: 300px;
+    display: inline-table;
+    justify-content: center;
+    /* left: 30%; */
+    position: fixed;
+
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.numeradores button{
+     width: 70px;
+     height: 40px;
+     border-radius: 5px;
+     font-weight: bold  ;
+}
+
+.botoesLateral{
+    margin-top: 150px;
+    margin-left: 235px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    font-family: FreeMono, monospace;
+    font-weight: bold;
+    position: absolute;
+    
+}
+
+.botoesLateral p{
+    display: flex;
+    margin: 0%;
+    position: absolute;
+    left: 110px;
+    top: 5%;
+}
+.botoesLateral button{
+    width: 60px;
+    height: 30px;
+    margin-bottom: 5px;
+    justify-content: right;
+    border-radius: 5px;
+}
+
+
+.botoesLateral1{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 245px;
+    top: 0;
+    z-index: 1;
+    font-family: FreeMono, monospace;
+    font-weight: bold;
+}
+.botoesLateral1 button{
+    width: 60px;
+    height: 30px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.botoesLateral1 p{
+    display: flex;
+    margin: 0%;
+    position: absolute;
+    right: 110px;
+    top: 68%;
+}
+.display{
+    background-color: rgb(231, 228, 221)  ;
+    width: 62%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2   0px;
+    margin-bottom: 20px;
+    font-family: cursive;
+    border-radius: 5px;
+}
+
+.display input{
+    border-radius: 5px;
+    border: 1px solid lightblue;
+    margin: 5px;
+}
+
+.verde{
+    background-color: rgb(63, 212, 63);
+    font-weight: bold;
+    margin-left: 10px ;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+
+.vermelho{
+    background-color: red;
+    font-weight: bold;
+    margin-left: 10px ;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+
+.amarelo{
+    background-color: yellow;
+    font-weight: bold;
+    margin-left: 10px ;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+
+.cinza{
+    font-weight: bold;
+    margin-left: 10px ;
+    border-radius: 5px;
+}
+
+
+.teste{
+    width: 70%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 4px rgb(41, 41, 41);
+    border-radius: 6px;
+    flex-direction: column;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Caixa Eletronico</title>
+</head>
+<body>
+
+    <div class="botoesLateral">
+        <button onclick="saque()">></button><p>Saque</p>
+        <button>></button>
+        <button>></button>
+    </div>
+    <section>
+    <div class="display">
+        <div class="teste">
+        <p id="visor">Bem Vindo ao Caixa Eletronico</p>
+        <p id="saldo"></p>
+        <p id="conta"></p>
+            <input type="number" id="display" name="saldo">
+        </div>
+    </div>
+</section>
+    <div class="botoesLateral1">
+        <button><</button>
+        <button><</button>
+        <p>Deposito</p><button onclick="deposito()"><</button>
+    </div>
+
+<section>
+    <div class="numeradores">
+        <button id="1" onclick="botao(1)"> 1 </button>
+        <button id="2" onclick="botao(2)"> 2 </button>
+        <button id="3" onclick="botao(3)"> 3 </button>
+        <button class="verde" onclick="deposita()">Confirma</button>
+        <button id="4" onclick="botao(4)"> 4 </button>
+        <button id="5" onclick="botao(5)"> 5 </button>
+        <button id="6" onclick="botao(6)"> 6 </button>
+        <button class="amarelo" onclick="limpar()">Limpar</button>
+        <button id="7" onclick="botao(7)"> 7 </button>
+        <button id="8" onclick="botao(8)"> 8 </button>
+        <button id="9" onclick="botao(9)"> 9 </button>
+        <button class="vermelho" onclick="cancelar()">Cancelar</button>
+        <button> - </button>
+        <button id="0" onclick="botao(0)"> 0 </button>
+        <button> ++ </button>
+        <button class="cinza" onclick="apagar()"> < </button>
+    </div>
+</section>
+
+</body>
+<script src="script.js"></script>
+</html>
